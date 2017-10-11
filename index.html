@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Class 4</title>
+
+		<meta name="description" content="2nd class of NYU's Advanced Python">
+		<meta name="author" content="Jess Garson">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Advanced Python</h1>
+					<p>
+						<small>Class 4</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<ol>
+						<li>Feedback</li>
+						<li>5 Minute Demos of Text Based Games</li>
+						<li>Linters</li>
+						<li>Freeze</li>
+						<li>Updates on Due Dates</li>
+						<li>Where did we Leave Off</li>
+						<li>Sprint Planning</li>
+						<li>Ticket Assignment</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Feedback Form</h2>
+					Found in the about the class
+				</section>
+
+				<section>
+					<h1>5 Minute Demos of Text Based Games</h1>
+				</section>
+
+				<section>
+					<h1>Linters are Super Important</h1>
+				</section>
+
+				<section>
+					<h2>Freeze it Up!</h2>
+					<code>
+					pip freeze > requirements.txt
+					pip install -r requirements.txt
+					</code>
+				</section>
+
+				<section>
+					<h2>Business Items</h2>
+					<ol>
+						<li>Slyabus Update</li>
+						<li>Saturday</li>
+						<li>Due Dates</li>
+					</ol>
+				</section>
+
+      <section>
+				<h1>Sprint Planning Review</h1>
+			</section>
+
+			<section>
+				<h1>Ticket Assignment</h1>
+			</section>
+
+			<section>
+				<h1>Let's Build a Site</h1>
+			</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
